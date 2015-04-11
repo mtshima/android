@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="temasek/android" remote="github" revision="cm-12.1" />
+  <project path="android" name="mtshima/android" remote="github" revision="cm-12.1" />
 
   <!-- START of temasek -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
