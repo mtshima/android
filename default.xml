@@ -32,7 +32,7 @@
   <project path="frameworks/native" name="temasek/android_frameworks_native" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/net/wifi" name="temasek/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony" remote="github" revision="cm-12.1" />
-  <project path="frameworks/webview" name="temasek/android_frameworks_webview" remote="github" revision="cm-12.1" />
+  <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="github" revision="cm-12.1" />
   <project path="libcore" name="temasek/android_libcore" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Browser" name="temasek/android_packages_apps_Browser" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Contacts" name="temasek/android_packages_apps_Contacts" remote="github" revision="cm-12.1" />
@@ -40,6 +40,7 @@
   <project path="packages/apps/Dialer" name="temasek/android_packages_apps_Dialer" remote="github" revision="cm-12.1" />
   <project path="packages/apps/InCallUI" name="temasek/android_packages_apps_InCallUI" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Mms" name="temasek/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Nfc" name="temasek/android_packages_apps_Nfc" remote="github" revision="cm-12.1" />
   <project path="packages/apps/OmniSwitch" name="temasek/android_packages_apps_OmniSwitch" remote="github" revision="cm-12.1" />
   <project path="packages/apps/PackageInstaller" name="temasek/android_packages_apps_PackageInstaller" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
@@ -357,6 +358,9 @@
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" />
+  <project path="external/whispersystems/curve25519" name="CyanogenMod/android_external_whispersystems_curve25519-java" />
+  <project path="external/whispersystems/libtextsecure" name="CyanogenMod/android_external_whispersystems_libtextsecure-java" />
+  <project path="external/whispersystems/libaxolotl" name="CyanogenMod/android_external_whispersystems_libaxolotl-android" />
   <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" />
   <!--<project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />-->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
@@ -500,7 +504,7 @@
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
   <!--<project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />-->
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
+  <!--<project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />-->
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <!--<project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />-->
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
