@@ -11,12 +11,12 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/mtshima/android.git -b cm-12.1
+    repo init -u https://github.com/mtshima/android.git -b cm-12.1
 
 
 sync repo :
 
-    $ repo sync
+    repo sync
 
 Kernel build :
 
