@@ -66,6 +66,7 @@
   <project path="prebuilts/ndk" name="temasek/android_prebuilt_ndk" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="temasek/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="system/core" name="temasek/android_system_core" remote="github" revision="cm-12.1" />
+  <project path="system/security" name="temasek/android_system_security" remote="github" revision="cm-12.1" />
   <project path="external/bluetooth/bluedroid" name="temasek/android_external_bluetooth_bluedroid" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/WebKit" name="temasek/android_external_chromium_org_third_party_WebKit" remote="github" revision="cm-12.1" />
   <project path="external/dhcpcd" name="temasek/android_external_dhcpcd" remote="github" revision="cm-12.1" />
@@ -75,6 +76,7 @@
   <project path="external/libmpeg2" name="temasek/android_external_libmpeg2" remote="github" revision="master" />
   <project path="external/lz4" name="temasek/android_external_lz4" remote="github" revision="cm-12.1" />
   <project path="external/sepolicy" name="temasek/android_external_sepolicy" remote="github" revision="cm-12.1" />
+  <project path="external/skia" name="temasek/android_external_skia" remote="github" revision="cm-12.1" />
   <project path="external/sqlite" name="arter97/android_external_sqlite" remote="github" revision="cm-12.1" />
   <project path="external/wpa_supplicant_8" name="temasek/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
   <project path="external/f2fs-tools" name="temasek/android_external_f2fs-tools" remote="github" revision="cm-12.1" />
@@ -354,7 +356,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <!--<project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />-->
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
+  <!--<project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />-->
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
@@ -630,7 +632,7 @@
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
-  <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <!--<project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />-->
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
